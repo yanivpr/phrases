@@ -1,28 +1,16 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Babbel file phrases challenge
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+= Notes:
+
+* I used rails because I'm familiar with it and wanted to remain within time constraints. It's not best choice here
+
+* There are a few sample integration test with Rspec, did not include specs with time restrictions
+
+* No error handling, no precondition checks
+
+* Phrases source file is small, with curl it takes 0.006 seconds
+
+* Minimal basic http auth just to have it running, username is 'babbel' and password is 'ruby', kept in clear text just for this challenge
