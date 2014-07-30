@@ -6,8 +6,8 @@ Babbel file phrases challenge
 
 * rails s
 
-#  curl http://localhost:3000/api/v1/phrases/random -u 'babbel:ruby' -w %{time_total}
-#  curl -i -H "Accept: application/json" -X POST -d "text=phrase four" localhost:3000/api/v1/phrases/append -u "babbel:ruby" -w %{time_total}
+*  curl http://localhost:3000/api/v1/phrases/random -u 'babbel:ruby' -w %{time_total}
+*  curl -i -H "Accept: application/json" -X POST -d "text=phrase four" localhost:3000/api/v1/phrases/append -u "babbel:ruby" -w %{time_total}
 
 
 = Notes:

@@ -17,7 +17,7 @@ module Api
         phrase_file = PhraseFile.new
         phrase_file.append text
 
-        head :no_content
+        render json: :ok
       end
 
     end
