@@ -1,1 +1,1 @@
-phrase one | phrase two | phrase three
+phrase one | phrase two | phrase three | phrase four
