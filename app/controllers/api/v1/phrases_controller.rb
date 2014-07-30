@@ -8,7 +8,7 @@ module Api
         phrase_file = PhraseFile.new
         random_phrase = phrase_file.random
 
-        render json: random_phrase
+        render json: { phrase: random_phrase }
       end
 
       def append

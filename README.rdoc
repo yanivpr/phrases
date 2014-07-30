@@ -14,7 +14,8 @@ Babbel file phrases challenge
 
 * I used rails because I'm familiar with it and wanted to remain within time constraints. It's not best choice here
 
-* There are a few sample integration test with Rspec, did not write specs that test the time requirement
+* There are a few sample integration test with Rspec, did not write specs that test the time requirement.
+  Of course many more tests are needed.
 
 * No error handling, no precondition checks
 
